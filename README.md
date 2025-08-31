@@ -1,45 +1,44 @@
-# Blinkit Advanced SQL Project 🚚📊
+
+# Blinkit Sales Analytics & Optimization Project 🚚📊
 
 ## 📌 Project Overview
-This project analyzes Blinkit’s data to identify customer segments and optimize marketing strategies.  
-Advanced SQL techniques such as CTEs and window functions were used to extract meaningful business insights.
+This project analyzes Blinkit’s sales and customer behavior data to uncover growth opportunities and improve decision-making.  
+Using MySQL, I explored customer spend, product categories, and sales patterns to provide data-driven recommendations.
 
-## 🎯 Business Objectives
-- Identify **first-time buyers** in the current month
-- Detect **customers with low feedback ratings**
-- Segment customers who buy only from specific categories
-- Analyze **most active shopping days** per customer
-- Track **month-over-month spending trends**
-- Rank customers by **total spend**
-- Identify **high-value, frequent, and inactive customers**
-- Find customers with **high average order value**
-- Highlight the **most frequent buyers** overall
+## 🎯 Business Questions
+1. Which customers contribute most to sales?  
+2. Which product categories are most profitable?  
+3. Which products drive the majority of revenue?  
+4. How does sales performance vary month-over-month?  
+5. When are customers most active (day/hour)?  
 
 ## 🛠 Tools & Skills
-- SQL (MySQL)
-- Advanced Queries: CTEs, Window Functions, Joins, Aggregations
-- Data Cleaning & Transformation
+- MySQL (Advanced SQL: CTEs, Window Functions)  
+- Data Analysis & Visualization (PPT, Excel)  
 
 ## 📂 Dataset
-Tables used:  
-- `Customers`  
-- `Customer Feedback`  
-- `Orders` & `Order Items`  
-- `Inventory`  
-- `Marketing Performance`  
-- `Delivery Performance`
+- **Orders**: order details (order_id, customer_id, delivery_time)  
+- **Order_Items**: product-level details (product_id, quantity, price)  
+- **Products**: product info (name, category)  
+- **Period**: 2023–2024  
 
-## 🚀 Key Insights
-- A small % of customers contributed disproportionately to total revenue  
-- High-spend and frequent customers overlapped, but not fully — useful for different targeting strategies  
-- Negative feedback correlated strongly with **delivery delays**  
-- Month-over-month analysis showed consistent growth from repeat buyers  
-- Some product categories were bought almost exclusively by niche customers  
+## 🚀 Key Findings
+- A small group of **high-spending customers** drives most revenue  
+- Categories like **Dairy, Pharmacy, Fruits & Vegetables** dominate sales  
+- Few **top-selling products** account for the majority of revenue  
+- **MoM sales are volatile**, with a sharp dip in Nov 2024  
+- Peak shopping occurs in **mornings & weekends**  
 
-## 📸 Example Output
-*(Add screenshot of SQL query results or visual if you have one)*  
+## 💡 Recommendations
+- Implement **loyalty programs** for high-value customers  
+- Prioritize top-performing **categories & products** in promotions  
+- Ensure **consistent availability** of best-selling items  
+- Conduct **monthly sales monitoring** to smooth seasonal volatility  
+- Optimize **staff scheduling & delivery capacity** for peak times  
+
+## 📸 Visuals
+*(Add screenshots from your PPT here)*
 
 ## 📂 Files
-- `Blinkit_Queries.sql` → All queries with comments  
-- `Blinkit_ERD.png` → Database design  
-- `dashboard.png` → Visualization of insights (if available)  
+- `Blinkit_SQL` → Full presentation  
+   
