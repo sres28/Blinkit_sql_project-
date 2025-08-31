@@ -36,8 +36,7 @@ Using MySQL, I explored customer spend, product categories, and sales patterns t
 - Conduct **monthly sales monitoring** to smooth seasonal volatility  
 - Optimize **staff scheduling & delivery capacity** for peak times  
 
-## 📸 Visuals
-*(Add screenshots from your PPT here)*
+
 
 ## 📂 Files
 - `Blinkit_SQL` → Full presentation  
